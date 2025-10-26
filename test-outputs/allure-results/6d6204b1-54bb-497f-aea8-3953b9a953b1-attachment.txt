@@ -1,0 +1,139 @@
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 46 ms.
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 15 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 30 ms.
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] -  Test Execution Start :
+[INFO] - Loading Properties File Data
+[INFO] - Cleaned directory successfully: test-outputs\allure-results
+[INFO] - Cleaned directory successfully: test-outputs\screenshots
+[WARN] - Could not clean directory (maybe it's in use?): test-outputs\Logs
+[INFO] - [TestNG] Running:
+  C:\Users\mahmo\IdeaProjects\AppiumAutomationSwagLabsApp\testng.xml
+
+[INFO] - [Utils] DynamicGraphHelper.createDynamicGraph() took 31 ms.
+[INFO] - starting The server
+[INFO] - driver started successfully
+[INFO] - start of method testSuccessfullLogin
+[INFO] - Json path: 'username' in the json file: 'test_data' has value: 'standard_user'
+[INFO] - Json path: 'password' in the json file: 'test_data' has value: 'secret_sauce'
+[INFO] - Waiting for element to be visible:  AppiumBy.accessibilityId: test-Username
+[INFO] - Finding element:  AppiumBy.accessibilityId: test-Username
+[INFO] - Finding element:  AppiumBy.accessibilityId: test-Username
+[INFO] - Data entered:  standard_user  in the field:  AppiumBy.accessibilityId: test-Username
+[INFO] - Waiting for element to be visible:  AppiumBy.accessibilityId: test-Password
+[INFO] - Finding element:  AppiumBy.accessibilityId: test-Password
+[INFO] - Finding element:  AppiumBy.accessibilityId: test-Password
+[INFO] - Data entered:  secret_sauce  in the field:  AppiumBy.accessibilityId: test-Password
+[INFO] - Waiting for element to be clickable:  AppiumBy.accessibilityId: test-LOGIN
+[INFO] - Waiting for element to be visible:  AppiumBy.accessibilityId: test-LOGIN
+[INFO] - Finding element:  AppiumBy.accessibilityId: test-LOGIN
+[INFO] - Clicked on the element:  AppiumBy.accessibilityId: test-LOGIN
+[INFO] - Waiting for element to be visible:  By.xpath: //android.widget.TextView[@text="PRODUCTS"]
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="PRODUCTS"]
+[INFO] - Getting text from the element:  By.xpath: //android.widget.TextView[@text="PRODUCTS"]  Text:  PRODUCTS
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="PRODUCTS"]
+[INFO] - Screenshot attached to Allure report
+[INFO] - Logs attached to Allure report
+[INFO] - Test passed : testSuccessfullLoginWithValidCredentials
+[INFO] - Json path: 'product1.price' in the json file: 'Product_Data' has value: '$29.99'
+[INFO] - scrolling to text  $29.99
+[INFO] - Waiting for element to be clickable:  By.xpath: (//android.view.ViewGroup[@content-desc="test-ADD TO CART"])[1]
+[INFO] - Waiting for element to be visible:  By.xpath: (//android.view.ViewGroup[@content-desc="test-ADD TO CART"])[1]
+[INFO] - Finding element:  By.xpath: (//android.view.ViewGroup[@content-desc="test-ADD TO CART"])[1]
+[INFO] - Clicked on the element:  By.xpath: (//android.view.ViewGroup[@content-desc="test-ADD TO CART"])[1]
+[INFO] - Waiting for element to be visible:  By.xpath: //android.widget.TextView[@text="REMOVE"]
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="REMOVE"]
+[INFO] - Getting text from the element:  By.xpath: //android.widget.TextView[@text="REMOVE"]  Text:  REMOVE
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="REMOVE"]
+[INFO] - product Removed From Cart successfully
+[INFO] - Json path: 'product2.price' in the json file: 'Product_Data' has value: '$9.99'
+[INFO] - scrolling to text  $9.99
+[INFO] - Waiting for element to be clickable:  By.xpath: //android.view.ViewGroup[@content-desc="test-ADD TO CART"]
+[INFO] - Waiting for element to be visible:  By.xpath: //android.view.ViewGroup[@content-desc="test-ADD TO CART"]
+[INFO] - Finding element:  By.xpath: //android.view.ViewGroup[@content-desc="test-ADD TO CART"]
+[INFO] - Clicked on the element:  By.xpath: //android.view.ViewGroup[@content-desc="test-ADD TO CART"]
+[INFO] - Waiting for element to be visible:  By.xpath: (//android.widget.TextView[@text="REMOVE"])[2]
+[INFO] - Finding element:  By.xpath: (//android.widget.TextView[@text="REMOVE"])[2]
+[INFO] - Getting text from the element:  By.xpath: (//android.widget.TextView[@text="REMOVE"])[2]  Text:  REMOVE
+[INFO] - Finding element:  By.xpath: (//android.widget.TextView[@text="REMOVE"])[2]
+[INFO] - another product Removed From Cart successfully
+[INFO] - Json path: 'product3.price' in the json file: 'Product_Data' has value: '$15.99'
+[INFO] - scrolling to text  $15.99
+[INFO] - Waiting for element to be visible:  By.xpath: (//android.view.ViewGroup[@content-desc="test-Drag Handle"])[1]
+[INFO] - Waiting for element to be visible:  By.xpath: //android.widget.TextView[@text="REMOVE"]
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="REMOVE"]
+[INFO] - Getting text from the element:  By.xpath: //android.widget.TextView[@text="REMOVE"]  Text:  REMOVE
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="REMOVE"]
+[INFO] - product Removed From Cart successfully
+[INFO] - Screenshot attached to Allure report
+[INFO] - Logs attached to Allure report
+[INFO] - Test passed : testAddingProductsToCart
+[INFO] - Waiting for element to be clickable:  AppiumBy.accessibilityId: test-Cart
+[INFO] - Waiting for element to be visible:  AppiumBy.accessibilityId: test-Cart
+[INFO] - Finding element:  AppiumBy.accessibilityId: test-Cart
+[INFO] - Clicked on the element:  AppiumBy.accessibilityId: test-Cart
+[INFO] - Waiting for element to be visible:  By.xpath: //android.widget.TextView[@text="YOUR CART"]
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="YOUR CART"]
+[INFO] - Getting text from the element:  By.xpath: //android.widget.TextView[@text="YOUR CART"]  Text:  YOUR CART
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="YOUR CART"]
+[INFO] - Waiting for element to be visible:  AppiumBy.accessibilityId: test-REMOVE
+[INFO] - Waiting for element to be clickable:  By.xpath: //android.view.ViewGroup[@content-desc="test-Delete"]/android.view.ViewGroup
+[INFO] - Waiting for element to be visible:  By.xpath: //android.view.ViewGroup[@content-desc="test-Delete"]/android.view.ViewGroup
+[INFO] - Finding element:  By.xpath: //android.view.ViewGroup[@content-desc="test-Delete"]/android.view.ViewGroup
+[INFO] - Clicked on the element:  By.xpath: //android.view.ViewGroup[@content-desc="test-Delete"]/android.view.ViewGroup
+[INFO] - product removed successfully
+[INFO] - Json path: 'product1.name' in the json file: 'Product_Data' has value: 'Sauce Labs Backpack'
+[INFO] - assertSauce Labs BackpackRemovedFromCart successfully
+[INFO] - Json path: 'product2.name' in the json file: 'Product_Data' has value: 'Sauce Labs Bike Light'
+[INFO] - Json path: 'product2.price' in the json file: 'Product_Data' has value: '$9.99'
+[INFO] - scrolling to text  Sauce Labs Bike Light
+[INFO] - Waiting for element to be visible:  By.xpath: //android.widget.TextView[@text="Sauce Labs Bike Light"]
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="Sauce Labs Bike Light"]
+[INFO] - Getting text from the element:  By.xpath: //android.widget.TextView[@text="Sauce Labs Bike Light"]  Text:  Sauce Labs Bike Light
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="Sauce Labs Bike Light"]
+[INFO] - scrolling to text  $9.99
+[INFO] - Waiting for element to be visible:  By.xpath: //android.widget.TextView[@text="$9.99"]
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="$9.99"]
+[INFO] - Getting text from the element:  By.xpath: //android.widget.TextView[@text="$9.99"]  Text:  $9.99
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="$9.99"]
+[INFO] - ProductDetails is successfully passed for Sauce Labs Bike Light
+[INFO] - Json path: 'product3.name' in the json file: 'Product_Data' has value: 'Sauce Labs Bolt T-Shirt'
+[INFO] - Json path: 'product3.price' in the json file: 'Product_Data' has value: '$15.99'
+[INFO] - scrolling to text  Sauce Labs Bolt T-Shirt
+[INFO] - Waiting for element to be visible:  By.xpath: //android.widget.TextView[@text="Sauce Labs Bolt T-Shirt"]
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="Sauce Labs Bolt T-Shirt"]
+[INFO] - Getting text from the element:  By.xpath: //android.widget.TextView[@text="Sauce Labs Bolt T-Shirt"]  Text:  Sauce Labs Bolt T-Shirt
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="Sauce Labs Bolt T-Shirt"]
+[INFO] - scrolling to text  $15.99
+[INFO] - Waiting for element to be visible:  By.xpath: //android.widget.TextView[@text="$15.99"]
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="$15.99"]
+[INFO] - Getting text from the element:  By.xpath: //android.widget.TextView[@text="$15.99"]  Text:  $15.99
+[INFO] - Finding element:  By.xpath: //android.widget.TextView[@text="$15.99"]
+[INFO] - ProductDetails is successfully passed for Sauce Labs Bolt T-Shirt
+[INFO] - Screenshot attached to Allure report
